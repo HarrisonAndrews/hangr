@@ -5,7 +5,10 @@ class AddPlayer < ActiveRecord::Migration
       t.integer :age
       t.integer :total_wins
       t.string :email
+
+
     end
+
   end
 
   def down
